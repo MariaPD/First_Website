@@ -1,0 +1,229 @@
+/*
+  ========================================
+  Header
+  ========================================
+*/
+header {
+  font-family: "Comic Sans MS";
+  font-size: 40px;
+}
+.image {
+  background-image: url("design2_image1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+h2 {
+  background: black;
+  font-family: "Comic Sans MS";
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 1px;
+  padding-bottom: 9px;
+}
+img {
+  position: absolute;
+  width: 325px;
+  left: 25px;
+  top: 625px;
+}
+/*
+  ========================================
+  Nav
+  ========================================
+*/
+nav {
+  position: absolute;
+  top: 165px;
+  right: 0px;
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+  color: white;
+}
+nav li {
+  display: block;
+  width: auto;
+  float: left;
+  text-align: center;
+  border-style: solid;
+  border-width: 4px;
+  border-color: black;
+  padding: 5px;
+  margin-right: 50px;
+  box-shadow: 5px 5px black;
+  background-color: mediumblue;
+}
+nav a:link, a:visited {
+  text-decoration: none;
+  color: white;
+  
+  padding: 5px;
+}
+.page {
+  background-color: green;
+}
+/*
+  ========================================
+  Section
+  ========================================
+*/
+section {
+  width: 60%;
+  font-family: "Comic Sans MS";
+  font-size: 22px;
+  text-align: justify;
+  margin-top: 50px;
+  margin-left: 400px;
+}
+.date {
+  font-style: italic;
+  margin-bottom: 0px;
+}
+.content{
+  text-indent: 2%;
+  margin-top: 0px;
+}
+.headline {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+a:link, a:visited section {
+  text-decoration: underline;
+  color: cornflowerblue;
+}
+ul{
+  list-style-type: square;
+}
+.letters {
+  list-style-type: lower-alpha;
+}
+ol {
+  font-weight: bold;
+}
+li span {
+  font-weight: normal;
+}
+.normal {
+  font-weight: normal;
+}
+.circle {
+  list-style-type: circle;
+}
+.games {
+  font-weight: normal;
+  text-decoration: underline;
+}
+/*
+  ========================================
+  Table
+  ========================================
+*/
+table {
+  margin-left: 400px;
+  font-family: "Comic Sans MS";
+  font-size: 18px;
+}
+.calendar {
+  width: 700px;
+}
+th {
+  text-decoration: underline;
+  text-align: left;
+}
+.dayss {
+  text-align: center;
+  padding-right: 50px;
+}
+.dayso {
+  text-align: center;
+  padding-right: 70px;
+}
+caption {
+  text-align: left;
+  font-weight: bold;
+}
+.venue {
+  padding-right: 100px;
+}
+h5 {
+  margin-left: 400px;
+  width: 750px;
+  font-family: "Comic Sans MS";
+  font-size: 18px;
+}
+h6 {
+  position: absolute;
+  top: 3945px;
+  margin-top: 0px;
+  margin-left: 800px;
+  font-family: "Comic Sans MS";
+  font-size: 18px;
+}
+/*
+  ========================================
+  Form
+  ========================================
+*/
+form {
+  font-family: "Comic Sans MS";
+  font-size: 22px;
+  margin-left: 400px;
+  width: 69%
+}
+input {
+  border: none;
+  border-bottom: 2px solid black;
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+}
+.bold {
+  font-weight: bold;
+}
+.normal {
+  font-weight: normal;
+}
+label span {
+  font-weight: bold;
+}
+.school {
+  float: left;
+  margin-right: 50px;
+}
+select {
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+}
+ul.columns {
+  list-style-type: none;
+}
+.columns {
+  column-count: 2;
+  width: 55%;
+}
+.size {
+  float: left;
+  width: 50%;
+}
+.permission {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.justify {
+  text-align: justify;
+}
+button {
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+}
+/*
+  ========================================
+  Maps
+  ========================================
+*/
+iframe {
+  width: 700px;
+  height: 350px;
+  border: 2px solid black;
+}
